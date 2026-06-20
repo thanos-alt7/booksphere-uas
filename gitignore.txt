@@ -1,0 +1,32 @@
+﻿# 1. Kredensial & File Sensitif 
+includes/config.php
+.env
+
+# 2. File Upload & Data Operasional
+assets/img/*
+!assets/img/default-book.png
+!assets/img/logo.png
+
+# 3. Log Error Server 
+error_log
+*.log
+php_errors.log
+
+# 4. File Sistem OS (Windows & macOS)
+Thumbs.db
+desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 5. File Konfigurasi Teks Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# 6. Backup Database Lokal 
+*.sql
+*.sqlite
